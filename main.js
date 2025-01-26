@@ -48,7 +48,7 @@ const events = [
       {
         id: 'power-point-styler',
         title: 'Art of Presentation',
-        image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80',
+        image: 'power_point_styler.jpg',
         description: 'Create stunning presentations with your creative skills',
         rules: [
           'Themes will be disclosed at the start of the event.',
