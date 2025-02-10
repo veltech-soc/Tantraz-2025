@@ -10,6 +10,10 @@
 <body>
     <header>
         <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            
             <div class="logo">
                 <span class="logo-text">T</span>
                 <span class="logo-text">A</span>
@@ -19,18 +23,23 @@
                 <span class="logo-text">A</span>
                 <span class="logo-text">Z</span>
             </div>
-            <div class="nav-links">
+            
+            <div class="nav-links" id="mobile-menu">
                 <div class="dropdown">
                     <a href="#events" class="dropdown-trigger">Technical Events</a>
                     <div class="dropdown-content">
                         <a href="#events" onclick="filterEvents('technical')">All Technical Events</a>
+                        <a href="#events" onclick="showEventDetails('typing-master')">Quick Fingers</a>
                         <a href="#events" onclick="showEventDetails('decode-tech')">Decode Tech</a>
                         <a href="#events" onclick="showEventDetails('ui-magician')">UI Magician</a>
-                        <a href="#events" onclick="showEventDetails('jumbled-code')">Jumbled Code</a>
+                        <a href="#events" onclick="showEventDetails('Chart it Out')">Chart it Out</a>
+                        <a href="#events" onclick="showEventDetails('Pop n hunt')">Pop N Hunt</a>
                         <a href="#events" onclick="showEventDetails('tech-fusion')">Tech Fusion</a>
-                        <a href="#events" onclick="showEventDetails('codechaos')">Codechaos</a>
+                        <a href="#events" onclick="showEventDetails('STREET CODE')">Street Coding</a>
                         <a href="#events" onclick="showEventDetails('techtrivia')">TechTrivia</a>
                         <a href="#events" onclick="showEventDetails('clueless-coder')">The Clueless Coder</a>
+                        <a href="#events" onclick="showEventDetails('Prompt-wars')">Prompt Wars</a>
+                        <a href="#events" onclick="showEventDetails('BrainByte')">BrainByte</a>
                     </div>
                 </div>
                 <div class="dropdown">
@@ -39,32 +48,40 @@
                         <a href="#events" onclick="filterEvents('non-technical')">All Non-Technical Events</a>
                         <a href="#events" onclick="showEventDetails('rhythm-soul')">Rhythm of Soul</a>
                         <a href="#events" onclick="showEventDetails('classy-genz')">ClassyGenz</a>
-                        
                     </div>
                 </div>
                 <div class="dropdown">
                     <a href="#" class="dropdown-trigger">Coordinators</a>
                     <div class="dropdown-content">
-                        <a href="#" >A.Karthikeya Manikanta</a>
-                        <a href="#" >G Dillep</a>
-                        <a href="#" >HONEYSH V</a>
-                        <a href="#">SRI DHANAM M K</a>
+                        <a href="#">A.Karthikeya Manikanta  <br>3<sup>rd</sup> year CSE</a>
+                        <a href="#">G Dillep <br>3<sup>rd</sup> year CSE</a>
+                        <a href="#">K Deepika<br>3<sup>rd</sup> year CSE</a>
+                        <a href="#">Honeysh V <br>2<sup>nd</sup> year CSE</a>
+                        <a href="#">Sri Dhanam M K <br>2<sup>nd</sup> year CSE</a>
+                        <a href="#">Vishnu Vardan G<br>2<sup>nd</sup> year CSE</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <a href="#" class="dropdown-trigger">Contact Us</a>
                     <div class="dropdown-content">
-                        <a href="tel:+91">Name:A.Karthikeya Manikanta</a>
-                        <a href="tel:+91 7013754319">Phone: 7013754319</a>
-                        <a href="mailto:vtu23826@veltech.edu.in">Email: vtu23826@veltech.edu.in</a>
-                        <a href="tel:+91">Name:G.Dillep</a>
-                        <a href="tel:+91 770263554">Phone: 7702638554</a>
-                        <a href="mailto:vtu22957@veltech.edu.in">Email: vtu22957@veltech.edu.in</a>
+                        <a href="tel:+91">Dr.S.Durai <br> Associate Professor</a>
+                        <a href="tel:+91 9842845623">9842845623</a>
+
+                        <a href="tel:+91">Dr.P.Arivubrakan <br> Assistant Professor (S.G)</a>
+                        <a href="tel:+91 9003775116"> 9003775116</a>
+
+                        <a href="tel:+91"> A.Karthikeya Manikanta 3<sup>rd</sup> year CSE</a>
+                        <a href="tel:+91 7013754319"> 7013754319</a>
+                        
+                        <a href="tel:+91"> G.Dillep <br>3<sup>rd</sup> year CSE</a>
+                        <a href="tel:+91 770263554"> 7702638554</a>
+                        
                     </div>
                 </div>
-                <a href="https://forms.gle/registerform" target="_blank" class="register-button">Register Now</a>
+                <a href="https://forms.gle/dGwZ4UsVfpyFJpMg7" target="_blank" class="register-button">Register Now</a>
             </div>
         </nav>
+        
     </header>
 
     <div id="particles-js"></div>
@@ -91,7 +108,7 @@
                 <span class="year-text">2</span>
                 <span class="year-text">5</span>
             </div>
-            <p class="tagline">Experience the Future of Technology</p>
+            <p class="tagline">Talent Never Quiet</p>
             <div class="cta-container">
                 <a href="#events" class="cta-button">
                     <span>Explore Events</span>
@@ -141,7 +158,89 @@
         </div>
     </div>
 
+
+        <!-- Registration Button -->
+        <div class="register-section">
+            <button class="main-register-btn" onclick="window.open('https://forms.gle/dGwZ4UsVfpyFJpMg7', '_blank')"><span class="btn-content">Register Now</span> <div class="btn-glow"></div></button>
+              
+             
+            </button>
+        </div>
+        <!-- Countdown Timer Section -->
+        <div class="countdown-section">
+            <h2>Time Left for Registration Closing</h2>
+            <div id="countdown-timer">
+            <span id="days"></span> Days 
+            <span id="hours"></span> Hours 
+            <span id="minutes"></span> Minutes 
+            <span id="seconds"></span> Seconds
+            </div>
+        </div>
+
+          <!-- About Us Section -->
+        <section id="about-us" class="about-section">
+            <div class="about-container">
+                <div class="college-info">
+                    <img src="https://www.veltech.edu.in/wp-content/uploads/2023/02/logo-2-376x108.png" alt="College Logo" class="college-logo" style="max-width: 100%; height: auto;">
+                    <div class="about-content">
+                        <h2>About Us</h2>
+                        <p class="about-description" style="text-align: justify; margin-bottom: 1em; font-family: 'Arial', sans-serif; font-size: 1em;">
+                            🚀 <strong>Welcome to TANTRAZ 2025 – The 3<sup>rd</sup> Intra Department Tech Fest!</strong>
+                        </p>
+                        <p class="about-description" style="text-align: justify; margin-bottom: 1em; font-family: 'Arial', sans-serif; font-size: 1em;">
+                            TANTRAZ 2025 is a dynamic and innovative technical and non-technical fest designed to ignite creativity, problem-solving, and collaboration among tech enthusiasts and creative minds. Hosted by School of Computing, VelTech University, this festival is a platform where students showcase their technical prowess, innovative ideas, and artistic skills through a variety of exciting competitions.
+                        </p>
+                        <ul class="about-list" style="margin-bottom: 1em; font-family: 'Arial', sans-serif; font-size: 1em;"></ul>
+                            <li style="margin-bottom: 0.5em;">🔥 <strong>Technical Events:</strong> Engage in thrilling coding competitions, hackathons, UI/UX design battles, AI challenges, and much more.</li>
+                            <li style="margin-bottom: 0.5em;">🎭 <strong>Non-Technical Events:</strong> Explore fun activities like gaming, quizzes, design challenges, and creative showcases.</li>
+                            <li style="margin-bottom: 0.5em;">🏆 <strong>Exciting Prizes & Recognition:</strong> Compete with the best and win amazing rewards, certificates, and career-boosting opportunities.</li>
+                        </ul>
+                        <p class="about-description" style="text-align: justify; margin-bottom: 1em; font-family: 'Arial', sans-serif; font-size: 1em;"></p>
+                            TANTRAZ 2025 is more than just a fest—it's an experience that fuels innovation, teamwork, and future-ready skills. Whether you're a tech geek, an artist, or an innovator, there's something for everyone here!
+                        </p>
+                        <p class="about-description" style="text-align: justify; margin-bottom: 1em; font-family: 'Arial', sans-serif; font-size: 1em;">
+                            📍 <strong>Join Us & Be Part of the Future! 🚀✨</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- Contact Us Section -->
+          <section id="contact-us" class="contact-section">
+            <div class="contact-container">
+              <h2>Contact Us</h2>
+              <div class="coordinators-grid">
+            <div class="coordinator-card">
+              <h3>Faculty Coordinators</h3>
+              <p>Dr.S.Durai <br>Associate Professor</p>
+              <p>9842845623</p>
+              <p>Dr.P.Arivubrakan<br> Assistant Professor (S.G)</p>
+              <p>9003775116</p>
+            </div>
+            <div class="coordinator-card">
+              <h3>Student Coordinators</h3>
+              <p>A.Karthikeya Manikanta</p>
+              <p>7013754319</p>
+              <p>G Dillep</p>
+              <p>7702638554</p>
+            </div>
+              </div>
+            </div>
+          </section>
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="main.js"></script>
+    <script>
+
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
