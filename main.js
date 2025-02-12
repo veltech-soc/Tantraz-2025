@@ -14,8 +14,11 @@ const events = [
             'Round 3: Top 10 Final Challenge The top 10 participants from Round 2 will compete in the final round. A more complex passage will be provided, and the final score will heavily emphasize accuracy along with speed',
         ],
         Organisers: ['Varada Sandeep -3<sup>rd</sup> year CSE', 'Somineni Pavithra -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['MR.D.MANNIVANAN', 'DR.N.K.MANIKANDAN'],
         timing: '10:30AM - 11:30AM',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/CtFBqZVWVGl2OReofBQnSQ',
+        
     },
     {
         id: 'decode-tech',
@@ -29,8 +32,10 @@ const events = [
             'Finalists will test technical knowledge through pictorial representations of computer science concepts.',
         ],
         Organisers: ['Preetham Upputuri -3<sup>rd</sup> year CSE', 'R.Dhanush -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['DR. R. THANGA SELVI', 'DR. T. KUJANI'],
         timing: '2:00 PM - 3:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/GPFdoKDns9Q5re3iJbLGpN',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'ui-magician',
@@ -44,8 +49,10 @@ const events = [
             'Participants must match the layout, colors, and spacing as closely as possible. Text content should be replicated exactly as given in the reference page.',
         ],
         Organisers: ['B.Vikas Reddy -3<sup>rd</sup> year CSE', 'K.Raghavendra Reddy -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['VASUDEVAN. S', 'MR.SIVA RAMA LINGAM'],
         timing: '10:30AM - 11:30AM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/IjlaE4u6KmbC5xYyLVyPpY',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'Chart it Out',
@@ -60,8 +67,10 @@ const events = [
             'Teams are allowed to have up to two members; single participation is also permitted. Plagiarism or copying will result in immediate disqualification.',
         ],
         Organisers: ['P.V.SASIBHUSHAN RAJU -3<sup>rd</sup> year CSE', 'B.SWAPNA MADHURI -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['MR.V JAGANRAJA', 'DR.ANGELINA LYDIA'],
         timing: '11:30AM - 1:00PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/KdFOGx7mpMKGQySRFHVuIg',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'Pop n hunt',
@@ -76,8 +85,10 @@ const events = [
             'The team with the highest marks wins.',
         ],
         Organisers: ['Dhivya SV -2<sup>nd</sup> year CSE', 'A Mahtheline Rose -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['KIRUTHIGA. S', 'DR.G.PRABAHARAN'],
         timing: '11:30AM - 1:00PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/JrNP1NABjYR0XdjPYDQhLF',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'tech-fusion',
@@ -92,8 +103,10 @@ const events = [
             'Code of Conduct – Participants must maintain professionalism and adhere to ethical',
         ],
         Organisers: ['GOKULAKANNAN V -2<sup>nd</sup> year CSE', 'M.P. SUDARSAN -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['DR.S.RAVIKUMAR', 'DR.T.THILAGAM'],
         timing: '10:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/BdTjURSkAd6CYpztS3wLxq',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'STREET CODE',
@@ -108,8 +121,10 @@ const events = [
             'The event consists of 2 rounds, each with increasing difficulty and chaos: Round 1 (60 minutes) – Coding challenge with mild disturbances. Round 2 (45 minutes) – Advanced coding challenge with extreme chaos',
         ],
         Organisers: ['v.Hema sarayu -3<sup>rd</sup> year CSE', 'J.A.Bhavya Reddy -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['DR. PREMA. K', 'MRS.V.SUGANYA'],
         timing: '11:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/IS1fWp7yNHa44c6TMstSxH',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'clueless-coder',
@@ -124,8 +139,10 @@ const events = [
             'Each team should have a maximum of 2 members.',
         ],
         Organisers: ['S.Ganesh Raj -2<sup>nd</sup> year CSE', 'Rahul S -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['DR.N.MANJUNATHAN', 'MRS.SWAPNA'],
         timing: '11:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/Gxo4mOPMbEQ4OyPNPQQejU',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'techtrivia',
@@ -140,8 +157,10 @@ const events = [
             'Do not share solutions or details with others during the event.',
         ],
         Organisers: ['K Arun Kishore -2<sup>nd</sup> year CSE', 'J Yogesh -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['MRS.V.USHA', 'Mr.SANKAR GANESH'],
         timing: '10:30 AM - 11:30 AM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/EroTeg2lCluEfZgA5CixOA',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'Prompt-wars',
@@ -156,8 +175,10 @@ const events = [
             'No AI tools or external assistance is allowed during the challenge.',
         ],
         Organisers: ['Ganesh Balaji -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['DR.K.KISHORE KUMAR', 'DR.D.FEMI.'],
         timing: '11:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/DJhFKJvVzZ8CFsn1IM7xuo',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'BrainByte',
@@ -172,8 +193,10 @@ const events = [
             'Do not share solutions or details with others during the event.',
         ],
         Organisers: ['Sharon Varghese -2<sup>nd</sup> year CSE', 'Shada ali khuzhikatil -2<sup>nd</sup> year CSE', 'Rushdha V -2<sup>nd</sup> year CSE', 'Sivani P -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['DR. K. ANTONY KUMAR', 'DR.S.THYLASHRI'],
         timing: '10:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/Hj1gGIuceXl33jFUJNrU5g',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'rhythm-soul',
@@ -188,8 +211,10 @@ const events = [
             'Judges decision will be final.',
         ],
         Organisers: ['S.Sarika -2<sup>nd</sup> year CSE', 'M.Indrajith -2<sup>nd</sup> year CSE'],
+        Faculty_Coordinators: ['SHYAMALA KUMARI. C', 'DR. MARIAMMAL. G'],
         timing: '2:00 PM - 3:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/E2BPQ4OLadl91MbbdgdtyF',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
     {
         id: 'classy-genz',
@@ -204,8 +229,10 @@ const events = [
             'You can use properties as well.',
         ],
         Organisers: ['Ch. komala sri -3<sup>rd</sup> year CSE', 'R.Thanmayee -3<sup>rd</sup> year CSE'],
+        Faculty_Coordinators: ['DR. KAVITHA. R', 'DR. DHINAKARAN. D'],
         timing: '2:00 PM - 3:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/G2KEkKTcqvvDujWyHIn2Vz',
+        register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
     },
 ];
 
@@ -418,12 +445,21 @@ function showEventDetails(eventId) {
                 <h3>Organisers: </h3>
                 ${event.Organisers.map(organiser => `<p>${organiser}</p>`).join('')}
             </div>
+             <div>
+                    <h3>Faculty Coordinators: </h3>
+                    ${event.Faculty_Coordinators.map(coordinator => `<p>${coordinator}</p>`).join('')}
+                </div>
             <div>
                 <h3>Timing</h3>
                 <p>${event.timing}</p>
             </div>
             </div>
             <a href="${event.Whatsapp_Group_Link}" target="_blank" class="register-event-button">Join in ${event.title} Whatsapp Group</a>
+           
+        </div>
+        <div style="margin-top: 15px;"></div>
+        <div>
+        <a href="${event.register_now}" target="_blank" class="register-event-button">Join in ${event.title} Register now</a> 
         </div>
         `;
 
