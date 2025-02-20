@@ -5,7 +5,7 @@ const events = [
         id: 'typing-master',
         type: 'technical',
         title: 'Quick Fingers',
-        image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&q=80',
+        image: 'media\\quick fingers.jpeg',
         description: 'Quick Fingers is a competitive typing event that highlights the importance of both accuracy and speed',
         rules: [
             'Round Instructions:',
@@ -24,7 +24,7 @@ const events = [
         id: 'decode-tech',
         type: 'technical',
         title: 'Decode Tech',
-        image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80',
+        image: 'media\\decode tech.avif',
         description: 'Connect technical concepts in this innovative challenge',
         rules: [
             'Round 1 will be conducted using Kahoot, where participants answer multiple-choice questions based on pictorial representations.',
@@ -41,7 +41,7 @@ const events = [
         id: 'ui-magician',
         type: 'technical',
         title: 'UI Magician',
-        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
+        image: 'media\\ui magician.png',
         description: 'Put your front-end skills to the test in this exciting challenge! Participants must accurately replicate a given web page within a set time limit, ensuring precision in design, layout, and styling.',
         rules: [
             'Internet access is strictly prohibited during the competition.',
@@ -76,7 +76,7 @@ const events = [
         id: 'Pop n hunt',
         type: 'technical',
         title: 'Pop N Hunt',
-        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
+        image: 'media\\pop n hunt.avif',
         description: 'Hunting the accurate code from the given treasure box for the given problem statements.',
         rules: [
             'Each team consists of 2 members.',
@@ -94,7 +94,7 @@ const events = [
         id: 'tech-fusion',
         type: 'technical',
         title: 'Tech Fusion',
-        image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80',
+        image: 'media\\tech fusion.avif',
         description: 'Tech Fusion is an innovative project expo showcasing groundbreaking student projects in technology, engineering, and automation.',
         rules: [
             'Prototype Requirement – A working prototype or simulation is mandatory for evaluation',
@@ -112,7 +112,7 @@ const events = [
         id: 'STREET CODE',
         type: 'technical',
         title: 'Street Coding',
-        image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80',
+        image: 'media\\street coding.avif',
         description: 'Street code is an event where programmers and coders participate in coding challenges while being exposed to external distractions like loud noises, random music, and other disturbances.',
         rules: [
             'Participants must bring their own laptops',
@@ -130,7 +130,7 @@ const events = [
         id: 'clueless-coder',
         type: 'technical',
         title: 'The Clueless Coder',
-        image: 'https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80',
+        image: 'media\\cluless coder.jpg',
         description: 'Clueless code is a Dumb Charades event which is an exciting team-based event where participants act out words or phrases without speaking.',
         rules: [
             'Participants must act out the word or phrase without speaking.',
@@ -148,7 +148,7 @@ const events = [
         id: 'techtrivia',
         type: 'technical',
         title: 'TechTrivia',
-        image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
+        image: 'media\\tech triva.jpg',
         description: 'It is an event designed to test participants knowledge about technology, computers, programming, and the history of tech innovations.',
         rules: [
             'Participate in teams (2 members).',
@@ -166,7 +166,7 @@ const events = [
         id: 'Prompt-wars',
         type: 'technical',
         title: 'Prompt wars',
-        image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
+        image: 'media\\prompt wars.png',
         description: 'Given a set of AI-based prompts, your challenge is to generate the most unique and engaging responses.',
         rules: [
             'Each team can have 1 member.',
@@ -184,7 +184,7 @@ const events = [
         id: 'BrainByte',
         type: 'technical',
         title: 'BrainByte',
-        image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
+        image: 'media\\brain bytes.webp',
         description: 'Get ready to test your brainpower at BrainByte! A thrilling event designed for computer science enthusiasts, where puzzles and riddles challenge your coding, problem solving, and logic skills.',
         rules: [
             'Participate in teams (2-4 members).',
@@ -202,8 +202,8 @@ const events = [
         id: 'rhythm-soul',
         type: 'non-technical',
         title: 'Rhythm of Soul',
-        image: 'https://images.unsplash.com/photo-1535525153412-5a092c564c20?auto=format&fit=crop&q=80',
-        description: 'Calling all dance enthusiasts! Get ready to groove and show off your moves at RHYTHM RIOT, the ultimate group dance competition! to Flaunt your dancing skills.',
+        image: 'media\\rythm of soul.png',
+        description: 'Calling all dance enthusiasts! Get ready to groove and show off your moves at RHYTHM OF SOUL, the ultimate group dance competition! to Flaunt your dancing skills.',
         rules: [
             'A team can have a maximum of 6 members.',
             'The duration for each performance is 3 to 5 mins.',
@@ -220,7 +220,7 @@ const events = [
         id: 'classy-genz',
         type: 'non-technical',
         title: 'ClassyGenz',
-        image: 'https://images.unsplash.com/photo-1523380744952-b7e00e6e2ffa?auto=format&fit=crop&q=80',
+        image: 'media\\classy genz.avif',
         description: 'A ramp walk is more than just walking—it’s about confidence, body language, and making a lasting impression.',
         rules: [
             'Welcomed in a descent attire (no short dresses) where you can express yourself within duration: 60 secs.',
