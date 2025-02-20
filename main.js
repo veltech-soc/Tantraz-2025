@@ -58,7 +58,7 @@ const events = [
         id: 'Chart it Out',
         type: 'technical',
         title: 'Chart it Out',
-        image: '',
+        image: 'media\\chart it out.jpg',
         description: 'Chart it Out is a poster presentation event that serves as an exciting platform where participants unleash their creativity and problem-solving skills.',
         rules: [
             'Themes will be announced at 11:30 AM and must be selected by the fishbowl method.',
@@ -459,7 +459,7 @@ function showEventDetails(eventId) {
         </div>
         <div style="margin-top: 15px;"></div>
         <div>
-        <a href="${event.register_now}" target="_blank" class="register-event-button">Join in ${event.title} Register now</a> 
+        <a href="${event.register_now}" target="_blank" class="register-event-button">  Register now</a> 
         </div>
         `;
 
