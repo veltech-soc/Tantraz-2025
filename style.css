@@ -1241,3 +1241,27 @@ display:none;
     }
 }
 
+
+/* Flex container for "TANTRAZ" and IEEE logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between text and logo */
+}
+
+/* Ensure IEEE logo resizes properly */
+.ieee-logo {
+    width: 80px; /* Default size */
+    height: auto;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+    .logo-container {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .ieee-logo {
+        width: 60px; /* Smaller size for mobile */
+    }
+}

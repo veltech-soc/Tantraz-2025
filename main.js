@@ -49,7 +49,7 @@ const events = [
             'Participants must match the layout, colors, and spacing as closely as possible. Text content should be replicated exactly as given in the reference page.',
         ],
         Organisers: ['B.Vikas Reddy -3<sup>rd</sup> year CSE', 'K.Raghavendra Reddy -3<sup>rd</sup> year CSE'],
-        Faculty_Coordinators: ['VASUDEVAN. S', 'MR.SIVA RAMA LINGAM'],
+        Faculty_Coordinators: ['MR.VASUDEVAN. S', 'MR.SIVA RAMA LINGAM'],
         timing: '10:30AM - 11:30AM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/IjlaE4u6KmbC5xYyLVyPpY',
         register_now: 'https://forms.gle/dGwZ4UsVfpyFJpMg7',
